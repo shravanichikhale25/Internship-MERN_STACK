@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Internship — MERN Stack Daily Practice
 
 This repository contains my daily internship tasks and practice assignments given by Ma'am. The internship runs from 1 June to 31 August. Each "DayN" folder corresponds to a day's tasks (Day 1 = 1 June, Day 2 = 2 June, etc.).
