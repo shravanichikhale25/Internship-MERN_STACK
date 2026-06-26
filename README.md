@@ -1,1 +1,1 @@
-# nternship-MERN_STACK
+# Internship-MERN_STACK
