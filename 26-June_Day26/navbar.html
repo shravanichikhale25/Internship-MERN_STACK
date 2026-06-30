@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family:Arial, sans-serif;
+            height: 2000px;
+            background-image: linear-gradient(white ,pink , #620259 );
+        }
+
+        .navbar{
+            width: 100%;
+            display:flex;
+            justify-content:space-between;  
+            align-items:center;
+            background-color:#333;
+            padding:15px 30px;
+            position: fixed;
+        }
+
+        .logo{
+            color:white;
+            font-size:25px;
+            font-weight:bold;
+        }
+
+        .menu{
+            list-style:none;
+            display:flex;
+        }
+
+        .menu li{
+            margin-left:20px;
+        }
+
+        .menu li a{
+            text-decoration:none;
+            color:white;
+            font-size:18px;
+        }
+
+        .menu li a:hover{
+            color:yellow;
+        }
+
+        #btn{
+            padding:8px 15px;
+            border:none;
+            background:yellow;
+            cursor:pointer;
+            font-weight:bold;
+        }
+
+        .dark{
+            background:black;
+            color:white;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            MyWebsite
+        </div>
+
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <button id="btn">Dark Mode</button>
+
+    </nav>
+
+    <script>
+
+        let btn = document.getElementById("btn");
+
+        btn.addEventListener("click", function(){
+
+            document.body.classList.toggle("dark");
+
+        });
+
+    </script>
+
+</body>
+
+</html>
