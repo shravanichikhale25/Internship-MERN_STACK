@@ -51,10 +51,11 @@ Below is a concise daily focus overview for each internship day (1 June — 31 A
 | 22 Jun 2026 | 22-June_Day22 |
 | 23 Jun 2026 | 23-June_Day23 |
 | 24 Jun 2026 | 24-June_Day24 |
+| 25 Jun 2026 | 25-June_Day25 |
+| 26 Jun 2026 | 26-June_Day26 |
+| 27 Jun 2026 | 27-June_Day27 |
+| 28 Jun 2026 | 28-June_Day28 |
+| 29 Jun 2026 | 29-June_Day29 |
+| 30 Jun 2026 | 30-June_Day30 |
 
-<!-- Compact placeholders for remaining days: brief entries removed as requested -->
 
-**Status:** Day 24 Task Completed (24 June 2026) — see the `24-June_Day24/` folder for files and examples.
-=======
-# Internship_MERN_STACK
->>>>>>> d0c165bef4b28aa6e0b2c8dda85883bf956d4d11
