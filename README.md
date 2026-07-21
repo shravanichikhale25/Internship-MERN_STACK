@@ -1,61 +1,16 @@
+# React + Vite
 
-# Internship — MERN Stack Daily Practice
+This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
-This repository contains my daily internship tasks and practice assignments given by Ma'am. The internship runs from 1 June to 31 August. Each "DayN" folder corresponds to a day's tasks (Day 1 = 1 June, Day 2 = 2 June, etc.).
+Currently, two official plugins are available:
 
-## Purpose
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-- Track daily tasks assigned during the internship.
-- Record what I completed each day and what I learned.
+## React Compiler
 
-## Repository structure
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-- `01-June_Day1/`, `02-June_Day2/`, `03-June_Day3/`, `04-June_Day4/`, ... — daily folders containing HTML, JS, images, and task files for that day.
-- See the root folders for the exact files (e.g. `01-June_Day1/basic.js`, `02-June_Day2/variable.js`).
+## Expanding the Oxlint configuration
 
-## Day-wise Summary (Concise)
-
-```mermaid
-flowchart TD
-	A[Receive task] --> B[Plan & setup]
-	B --> C[Implement]
-	C --> D[Test locally]
-	D --> E[Document & commit]
-	E --> F[Review]
-	F --> G[Next task]
-	E --> G
-```
-
-Below is a concise daily focus overview for each internship day (1 June — 31 August). For days already in this repo, file references are shown.
-
-|        Date | Folder        |
-| ----------: | :------------ |
-|  1 Jun 2026 | 01-June_Day1  |
-|  2 Jun 2026 | 02-June_Day2  |
-|  3 Jun 2026 | 03-June_Day3  |
-|  4 Jun 2026 | 04-June_Day4  |
-|  5 Jun 2026 | 05-June_Day5  |
-|  6 Jun 2026 | 06-June_Day6  |
-|  7 Jun 2026 | 07-June_Day7  |
-|  8 Jun 2026 | 08-June_Day8  |
-|  9 Jun 2026 | 09-June_Day9  |
-| 10 Jun 2026 | 10-June_Day10 |
-| 11 Jun 2026 | 11-June_Day11 |
-| 12 Jun 2026 | 12-June_Day12 |
-| 13 Jun 2026 | 13-June_Day13 |
-| 15 Jun 2026 | 15-June_Day15 |
-| 17 Jun 2026 | 17-June_Day17 |
-| 18 Jun 2026 | 18-June_Day18 |
-| 19 Jun 2026 | 19-June_Day19 |
-| 20 Jun 2026 | 20-June_Day20 |
-| 22 Jun 2026 | 22-June_Day22 |
-| 23 Jun 2026 | 23-June_Day23 |
-| 24 Jun 2026 | 24-June_Day24 |
-| 25 Jun 2026 | 25-June_Day25 |
-| 26 Jun 2026 | 26-June_Day26 |
-| 27 Jun 2026 | 27-June_Day27 |
-| 28 Jun 2026 | 28-June_Day28 |
-| 29 Jun 2026 | 29-June_Day29 |
-| 30 Jun 2026 | 30-June_Day30 |
-
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
